@@ -11,24 +11,25 @@ https://github.com/gitextensions/gitextensions/wiki/How-To:-run-Git-Extensions-o
 
 
 ![](attachments/Pasted%20image%2020240315160834.png)
-**Figure 1: Git Extension main GUI on windows**
+[Figure 1](#Git_ext_windows@figure@new): Git Extension main GUI on windows
 
 
 ![](attachments/Pasted%20image%2020240315160857.png)
-**Figure 2: Linux  main GUI**
+[Figure 2](#Git_ext_linux@figure@new): Linux  main GUI
 
 
-A particularly noticeable feature absent in the older version is the sidebar located on the left. This sidebar conveniently displays a list of all branches and submodules within the repository. You can still reach the submodules through the file tree, even in the absence of the sidebar.
+A particularly noticeable feature absent in the older version is the sidebar located on the left (see [Figure 2](#Git_ext_linux@figure)). This sidebar conveniently displays a list of all branches and submodules within the repository. You can still reach the submodules through the file tree, even in the absence of the sidebar.
 
 ## Alternatives
 
 Several tools offer alternatives to Git-Extensions, such as SourceTree, SmartGit, GitKraken, and GitHub Desktop. These options range from free to offering free versions with certain limitations. As I haven't personally used these tools, I can't provide specific recommendations.
 
 ![](attachments/Pasted%20image%2020240315160935.png)
-**Figure 3: Sourcetree on MAC/OS**
+[Figure 3](#Sourcetree@figure@new): Sourcetree on MAC/OS
 
 ![](attachments/Pasted%20image%2020240315160950.png)
-**Figure 4: GitHub Desktop**
+[Figure 4](#GitHub_Desktop@figure@new): GitHub Desktop
+
 
 
 ## IDE Integrations

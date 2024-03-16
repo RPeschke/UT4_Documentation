@@ -5,6 +5,7 @@
 This document is a personal summary of the libraries, and I am not affiliated with the authors of the libraries. The interpretations presented might not be accurate.
 
 
+
 ## Abstract
 
 The Ruckus Build System is a comprehensive tool that streamlines the development process of firmware for FPGAs and other programmable devices. It acts as a bridge between version control systems and hardware description languages, embedding version information directly into the build process. The system utilizes a hybrid Makefile/TCL structure to manage builds, enabling both command-line operation for efficiency and a GUI for increased usability and error analysis. Ruckus simplifies the process of setting up and replicating Vivado project environments, mitigating the need to version control the entire project workspace, and provides tools for automating release tagging and documentation. Its integration with Git allows developers to track changes and maintain a clear history of their project’s evolution. With the ability to handle multiple hardware targets and support a wide range of Xilinx FPGAs, Ruckus stands out as a flexible and robust build  
@@ -92,6 +93,7 @@ The build system supports two modes for simulation: the Vivado Native Simulator 
 ### Design Flow: IP Core Generation	
 
 ![](attachments/Pasted%20image%2020240315170749.png)
+
 
 The typical design flow for IP core generation begins with opening the GUI mode using the "make gui" command. Within the GUI, you access the "IP Catalog" to select and configure the desired IP. Once the IP core is generated, you close the GUI mode and copy the resulting .xci file from the build directory to the firmware/common directory. The next step is to update the ruckus.tcl file to reference the new Xilinx IP core file. Any obsolete files in the build directory should be cleaned out with the "make clean" command. Afterward, you can re-open the GUI mode to confirm that the new IP is correctly included in the "IP Sources" section, completing the IP core integration process.
 
